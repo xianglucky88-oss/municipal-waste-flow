@@ -1,0 +1,58 @@
+[
+  {
+    "source": "transfer-station",
+    "observed_at": "2026-11-01T11:00:00Z",
+    "payload": {
+      "facility_id": "T-01",
+      "batch_id": "B-001",
+      "collected_at": "2026-11-01T10:00:00Z",
+      "waste_type": "mixed",
+      "net_weight_kg": 1250.5,
+      "origin_zone": "Z-1",
+      "destination_facility_id": "P-01",
+      "status": "received"
+    }
+  },
+  {
+    "source": "collection-system",
+    "observed_at": "2026-11-01T11:05:00Z",
+    "payload": {
+      "facility_id": "T-02",
+      "batch_id": "B-002",
+      "collected_at": "2026-11-01T10:05:00Z",
+      "waste_type": "food",
+      "net_weight_kg": 640,
+      "origin_zone": "Z-2",
+      "destination_facility_id": "P-02",
+      "status": "in_transit"
+    }
+  },
+  {
+    "source": "recycling-plant",
+    "observed_at": "2026-11-01T11:10:00Z",
+    "payload": {
+      "facility_id": "P-03",
+      "batch_id": "B-003",
+      "collected_at": "2026-11-01T10:10:00Z",
+      "waste_type": "recyclable",
+      "net_weight_kg": 300,
+      "origin_zone": "Z-3",
+      "destination_facility_id": "P-03",
+      "status": "processed"
+    }
+  },
+  {
+    "source": "transfer-station",
+    "observed_at": "2026-11-01T11:15:00Z",
+    "payload": {
+      "facility_id": "T-04",
+      "batch_id": "B-004",
+      "collected_at": "2026-11-01T10:15:00Z",
+      "waste_type": "mixed",
+      "net_weight_kg": 0,
+      "origin_zone": "Z-4",
+      "destination_facility_id": "P-04",
+      "status": "received"
+    }
+  }
+]

@@ -1,0 +1,7 @@
+[project]
+name = "municipal-waste-flow"
+version = "0.1.0"
+requires-python = ">=3.11"
+
+[project.scripts]
+municipal-waste-flow = "municipal_waste.cli:main"
