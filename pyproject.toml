@@ -5,3 +5,4 @@ requires-python = ">=3.11"
 
 [project.scripts]
 municipal-waste-flow = "municipal_waste.cli:main"
+municipal-waste-balance = "municipal_waste.balance_cli:main"

@@ -14,6 +14,7 @@ class DataStore:
     def __init__(self, database: str) -> None:
         self.conn = sqlite3.connect(database)
         self.conn.execute("PRAGMA foreign_keys = ON")
+        self.conn.execute("PRAGMA busy_timeout = 5000")
         self.conn.executescript("""
         CREATE TABLE IF NOT EXISTS batches (
             batch_id INTEGER PRIMARY KEY AUTOINCREMENT,
